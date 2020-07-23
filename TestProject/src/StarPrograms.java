@@ -4,15 +4,15 @@ public class StarPrograms {
 	public static void main(String[] args) 
 	{
 		        //star pattern 4
-				for(int i=1; i<=4; i++)
+				for(int row=1; row<=4; row++)
 				{
 			 
-				   for(int j=3; j>=i; j--)
+				   for(int column=3; column>=row; column--)
 				    {   
 				        System.out.print(" ");
 				    }
 				   
-				    for (int k=1; k<=i;k++)
+				    for (int Row=1; Row<=row;Row++)    //here 'R' is the another iteration of new row
 				     {
 					    System.out.print("*");
 				     }
@@ -21,32 +21,33 @@ public class StarPrograms {
 				     System.out.println();
 				
 				//star pattern 5
-			       for (int i=1; i<=4; i++)
+			       for (int row=1; row<=4; row++)
 			       {
-			    	   for(int j=2; j<=i; j++)
+			    	   for(int column=2; column<=row; column++)
 			    	   {
 			    		   System.out.print(" ");
 			    	   }
-			    	  for ( int k=4; k>=i; k--)
+			    	  for ( int Row=4; Row>=row; Row--)
 			    	  {
 			    		System.out.print("*");  
 			    	  }
 			    	  System.out.println();
 			       }
+			       System.out.println();
 			       
 			       //star pattern 6
-			       for (int i=1; i<=4; i++)
+			       for (int row=1; row<=4; row++)
 			       {
-			    	   for(int j=3; j>=i; j--)
+			    	   for(int column=3; column>=row; column--)
 			    	   {
 			    		   System.out.print(" ");
 			    	   }
-			    	  for (int k=1; k<=i; k++)
+			    	  for (int Row=1; Row<=row; Row++)
 			    	  {
 			    		System.out.print("*");  
 			    	  }
 
-			            for (int l=2; l<=i; l++)
+			            for (int Column=2; Column<=row; Column++)    //here 'C' is for another iteration of new column
 			            { 
 					    		 System.out.print("*");   
 			            }
