@@ -12,7 +12,7 @@ public class StarPrograms {
 				        System.out.print(" ");
 				    }
 				   
-				    for (int Row=1; Row<=row;Row++)    //here 'R' is the another iteration of new row
+				    for (int secondRow=1; secondRow<=row;secondRow++)    //here 'secondRow' is the another iteration of new row
 				     {
 					    System.out.print("*");
 				     }
@@ -27,7 +27,7 @@ public class StarPrograms {
 			    	   {
 			    		   System.out.print(" ");
 			    	   }
-			    	  for ( int Row=4; Row>=row; Row--)
+			    	  for ( int secondRow=4; secondRow>=row; secondRow--)
 			    	  {
 			    		System.out.print("*");  
 			    	  }
@@ -42,12 +42,12 @@ public class StarPrograms {
 			    	   {
 			    		   System.out.print(" ");
 			    	   }
-			    	  for (int Row=1; Row<=row; Row++)
+			    	  for (int secondRow=1; secondRow<=row; secondRow++)
 			    	  {
 			    		System.out.print("*");  
 			    	  }
 
-			            for (int Column=2; Column<=row; Column++)    //here 'C' is for another iteration of new column
+			            for (int secondColumn=2; secondColumn<=row; secondColumn++)    //here 'secondColumn' is for another iteration of new column
 			            { 
 					    		 System.out.print("*");   
 			            }
