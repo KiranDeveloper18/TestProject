@@ -41,7 +41,7 @@ class Demo1    //class two
 	//constructor with string and integer
 	Demo1(String Name, int age)
 	{
-		System.out.println("Main of the family and age of the member : " + Name + " & " + age );
+		System.out.println("Main of the family Member and age of the member : " + Name + " & " + age );
 	}
 	
 	//constructor with long 
