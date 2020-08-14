@@ -1,5 +1,5 @@
 
-public class Palindrome 
+public class Palindrome
 {
 	// Function that returns true or false depends upon the string
     static boolean isPalindrome(String str)     
