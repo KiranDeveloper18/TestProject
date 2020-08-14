@@ -12,7 +12,7 @@ public class Palindrome
         { 
             if (str.charAt(i) != str.charAt(j))   //it is to check the mismatch of the string
             return false; 
-            i++;                                  // Increment first pointer and 
+            i++;                                  // Increment from starting pointer of the string 
             j--; 								  // decrement the other 	
         } 
             return true;                          // if string is a palindrome 
