@@ -2,14 +2,6 @@ import java.util.Arrays;
 
 public class TopTwoMaximum 
 {
-
-	public static void main(String[] args) 
-	{
-		topTwo(new int[]{20, 34, 21, 87, 92, Integer.MAX_VALUE}); 
-		topTwo(new int[]{0, Integer.MIN_VALUE, -2}); 
-		topTwo(new int[]{Integer.MAX_VALUE, 0, Integer.MAX_VALUE}); 
-		topTwo(new int[]{1, 1, 0});
-    } 
 	public static void topTwo(int[] numbers) 
 	{ 
 		int max1 = Integer.MIN_VALUE; 
@@ -32,6 +24,15 @@ public class TopTwoMaximum
 			 System.out.println("Second maximum number is : " + max2); 
 	}
 
+	public static void main(String[] args) 
+	{
+		topTwo(new int[]{20, 34, 21, 87, 92, Integer.MAX_VALUE}); 
+		topTwo(new int[]{-3,1,0, Integer.MIN_VALUE, -2}); 
+		topTwo(new int[]{Integer.MAX_VALUE, 0, Integer.MAX_VALUE}); 
+		topTwo(new int[]{2,1, 1, 0});
+    } 
+	
 }
+
 
 
